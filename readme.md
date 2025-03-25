@@ -25,7 +25,7 @@
    ```
 4. 필요한 패키지를 설치합니다:
    ```
-   conda env create -f environment.yml
+   pip install -r requirements.txt
    conda activate brain_2th_AA_Session_First_Assignment
    ```
 
