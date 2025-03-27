@@ -25,8 +25,9 @@
    ```
 4. 필요한 패키지를 설치합니다:
    ```
+   conda create -n brAIn_2th_AA_Session_First_Assignment python=3.10
+   conda activate brain_2th_AA_Session_First_Assignment   
    pip install -r requirements.txt
-   conda activate brain_2th_AA_Session_First_Assignment
    ```
 
 이제 프로젝트 설치가 완료되었습니다!

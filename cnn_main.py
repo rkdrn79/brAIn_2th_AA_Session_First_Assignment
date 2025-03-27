@@ -173,6 +173,8 @@ def validate_np(model, image, label):
 def start(train_linear_th=False, train_linear_np=False, train_cnn_th=False, train_cnn_np=False):
     print("loading...")
     train_images, train_labels, test_images, test_labels = load_data()
+    import pdb; pdb.set_trace()
+
     print("========================\n\n")
     
     if(train_linear_th):
@@ -215,4 +217,5 @@ if __name__=="__main__":
     TOTAL_EPOCH=5
     BATCH_SIZE=48
     LR=0.01
+    import pdb; pdb.set_trace()
     start(train_linear_th=True, train_linear_np=True, train_cnn_th=True, train_cnn_np=True)
